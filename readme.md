@@ -6,19 +6,19 @@ The game has an A.I. of initially (250) bots trying their best to get as far as 
 ## The topology of the neural network
 A very simple topology of just the input layer to the output layer with bias (4x2)
 
-##Initial Parameters:
+## Initial Parameters:
 - Population: 250
 - Parents: 2
 - Mutation rate: 0.09
 
 ## Main concepts of genetic algorithm (For review):
 - Heredity - Species of the new generation is able to inherit genes (information) of the fittest parents of the previous generation
-    - How its done in this project:
+    - **How its done in this project:**
     - get the 4 weights of the random parents alternatively
 - Variation - Has different ways to produce new species 
-    How its done in this project:
-     - Mutation
-     - Random weights
+    - **How its done in this project:**
+    - Mutation
+    - Random weights
 - Selection - Gets the weighted random of (2) parents, the weight of choosing the parents is the fitness (How long the bird lived) and additionally if they pass a pipe its an additional fitness for increased reward (reward gates).
 
 
